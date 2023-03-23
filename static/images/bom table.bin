@@ -1,9 +1,0 @@
-product_code = int [ref: > Products.product_id]
-part_name = str
-rm_serial_no = int
-rm_type = choices [product,rawmaterial]
-rm_code = str
-rm_name = str
-rm_quantity = int
-production_phase = int [ref: > Productionphase]
-mesured_unit = int [ref:MeasuredUnits]
